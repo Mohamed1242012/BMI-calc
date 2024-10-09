@@ -31,7 +31,7 @@ cd BMI-calc
 
 Then run the app :
 ```bash
-python3 main.py
+python3 -W ignore main.py
 ```
 
 Choose wich units you want to use (Type 1 or 2) :
