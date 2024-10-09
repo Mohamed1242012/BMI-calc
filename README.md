@@ -45,8 +45,8 @@ Then enter your weight and height.
 
 ## Future Updates
 These are some things I want to add in the future :
-1- GUI using tinker or pygtk
-2- Make it support more units
+- GUI using tinker or pygtk
+- Make it support more units
 
 ## Licence
 For licence info check the [LICENCE](LICENSE) file.
