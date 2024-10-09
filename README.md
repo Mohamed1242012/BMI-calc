@@ -49,4 +49,4 @@ These are some things I want to add in the future :
 2- Make it support more units
 
 ##Licence
-For licence info check the [LICENCE](LICENCE) file.
+For licence info check the [LICENCE](LICENSE) file.
