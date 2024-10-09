@@ -5,6 +5,7 @@ This is a simple BMI (Body Mass Index) calculator implemented in Python.
 ## Author
 
 Made by **Mohamed Elsayed**
+My blog: (http://gnu-genius.great-site.net/)[http://gnu-genius.great-site.net/]
 
 ## Description
 
