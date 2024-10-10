@@ -16,10 +16,11 @@ def main () :
                                                                                                                      |  $$$$$$/                    
                                                                                                                       \______/                   
 My program is based on this BMI Datasheet: https://mohamed1242012.github.io/bmi_datasheet
-This is an Open Source Project on:
+This is an Open Source Project on: https://github.com/Mohamed1242012/BMI-calc
+My Blog: http://gnu-genius.great-site.net
 
     """)
-    try :
+    try : #For handling Errors 
         units = int(input("""Which units do you prefer (1 or 2) :
 1. Kilograms and Centimeters
 2. Pounds and Inches (Feet + remaining inches)
@@ -39,14 +40,14 @@ Choose: """))
 
         #Show result
         print(f'\nResults:\nYour BMI is: {bmi:.2f}\nWhich is {level}')
-    except ValueError as e :
+    except ValueError as e : #Input Error
         print (f"Invalid Input: {e}")
-    except Exception as e:
+    except Exception as e: #Unexpected Error
         print(f"An unexpected error occurred: {e}")
 
 
 
-def calculate_bmi (weight,height) :
+def calculate_bmi (weight,height) : #Function for calculating the BMI
     bmi = weight / (height ** 2)
     if bmi < 18.5 :
         level = 'Underweight'
